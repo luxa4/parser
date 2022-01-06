@@ -35,6 +35,8 @@ const puppeteer = require('puppeteer');
 
             return total;
         });
+
+        console.log(`Images`, img);
     }
 
     await browser.close();
